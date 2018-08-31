@@ -4,7 +4,7 @@
   "description": "Responsive portfolio website.",
   "main": "index.js",
   "scripts": {
-    "sass": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,8 @@
   "bugs": {
     "url": "https://github.com/TheLurkingDev/responsive-portfolio-site/issues"
   },
-  "homepage": "https://github.com/TheLurkingDev/responsive-portfolio-site#readme",
-  "dependencies": {}
+  "homepage": "https://thelurkingdev.github.io/responsive-portfolio-site",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
 }
